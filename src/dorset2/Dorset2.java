@@ -26,7 +26,36 @@ public class Dorset2 {
         You need to extract each character in a string and convert it to a number
         Start by creating a loop that just creates a running total based on the counter of the loop
 */
-        
+  
+        int numero1=7631;
+        String numberToString = Integer.toString(numero1);
+        int total=0;
+         
+        for (int i=0; i<numberToString.length(); i++){
+           total += Integer.parseInt(String.valueOf(numberToString.charAt(i)));
+             System.out.println("Number: "+numberToString.charAt(i)); ;
+         }
+    
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
     }
     
 }
